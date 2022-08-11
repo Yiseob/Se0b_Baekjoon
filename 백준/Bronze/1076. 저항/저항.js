@@ -1,10 +1,5 @@
 let fs = require('fs');
-let input = fs.readFileSync('/dev/stdin').toString().split('\n'); 
-
-let c1 = input[0];
-let c2 = input[1];
-let c3 = input[2];
-
+let [c1, c2, c3] = fs.readFileSync('/dev/stdin').toString().split('\n'); 
 
          let color = ["black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"];
 
